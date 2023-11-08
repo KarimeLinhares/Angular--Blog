@@ -1,0 +1,48 @@
+.container_menubar {
+  background-color: #fffffe;
+  box-shadow: 4px 6px 13px rgba(214.62, 214.62, 214.62, 0.25);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+}
+
+.icon_gamepad {
+  width: 80px;
+}
+
+.container_menu-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+}
+
+.container_search {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon_search {
+  padding: 3px 5px 0px 0px;
+}
+
+.button_coffee {
+  padding: 10px 17px 10px 17px;
+  background: #6246ea;
+  border-radius: 4px;
+  border: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  color: #fffffe;
+  font-size: 20px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+}
