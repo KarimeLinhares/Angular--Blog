@@ -10,6 +10,7 @@
 
 body {
   background-color: #eff0f3;
+  min-width: 980px;
 }
 
 a {
