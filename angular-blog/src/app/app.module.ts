@@ -9,6 +9,7 @@ import { CategoryCardComponent } from './components/category-card/category-card.
 import { ArticleCardComponent } from './components/article-card/article-card.component';
 import { SubscribeCardComponent } from './components/subscribe-card/subscribe-card.component';
 import { FooterCardComponent } from './components/footer-card/footer-card.component';
+import { SubscribeComponentsComponent } from './components/subscribe-components/subscribe-components.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterCardComponent } from './components/footer-card/footer-card.compon
     CategoryCardComponent,
     ArticleCardComponent,
     SubscribeCardComponent,
-    FooterCardComponent
+    FooterCardComponent,
+    SubscribeComponentsComponent
   ],
   imports: [
     BrowserModule,

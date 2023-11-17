@@ -1,0 +1,11 @@
+.container_category-card {
+  background-color: #fffffe;
+  padding: 50px 50px 50px 50px;
+}
+
+h1 {
+  color: #2b2c34;
+  font-size: 24px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+}
