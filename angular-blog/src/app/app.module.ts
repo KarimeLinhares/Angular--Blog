@@ -10,6 +10,7 @@ import { ArticleCardComponent } from './components/article-card/article-card.com
 import { SubscribeCardComponent } from './components/subscribe-card/subscribe-card.component';
 import { FooterCardComponent } from './components/footer-card/footer-card.component';
 import { SubscribeComponentsComponent } from './components/subscribe-components/subscribe-components.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +21,11 @@ import { SubscribeComponentsComponent } from './components/subscribe-components/
     ArticleCardComponent,
     SubscribeCardComponent,
     FooterCardComponent,
-    SubscribeComponentsComponent
+    SubscribeComponentsComponent,
+    HomeComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
