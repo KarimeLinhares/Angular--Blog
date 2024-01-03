@@ -82,7 +82,7 @@ hr {
   font-weight: 400;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1260px) {
   .text_column-1,
   ul {
     font-size: 12px;
