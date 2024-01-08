@@ -1,1 +1,10 @@
-<p>content works!</p>
+<div class="container_content">
+  <div class="return">
+    <img class="return_pic" src="../../../assets/return.svg" />
+    <a [routerLink]="['']">Return</a>
+  </div>
+  <div class="body">
+    <img class="article_pic" src="{{ [photoCover] }}" />
+    <h1>{{ title }}</h1>
+  </div>
+</div>

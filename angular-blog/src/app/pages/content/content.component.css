@@ -1,0 +1,46 @@
+.container_content {
+  margin: 100px 50px 100px 50px;
+  padding: 50px;
+  background-color: #ffffff;
+  box-shadow: 4px 6px 13px rgba(214.62, 214.62, 214.62, 0.25);
+  border-radius: 12.6px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.return {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.return > a:hover {
+  text-decoration: underline;
+}
+
+.return_pic {
+  width: 20px;
+}
+
+.article_pic {
+  width: 700px;
+}
+
+h1 {
+  color: #2b2c34;
+  font-size: 64px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+a {
+  color: #9a9494;
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}

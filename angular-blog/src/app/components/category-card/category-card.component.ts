@@ -26,4 +26,6 @@ export class CategoryCardComponent {
   CardTitle3: string = '';
   @Input()
   CardTitle4: string = '';
+  @Input()
+  Id: string = '0';
 }

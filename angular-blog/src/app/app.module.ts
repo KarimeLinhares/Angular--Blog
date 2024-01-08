@@ -13,6 +13,9 @@ import { SubscribeComponentsComponent } from './components/subscribe-components/
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { ArticleRowComponent } from './components/article-row/article-row.component';
+import { TechRowComponent } from './components/tech-row/tech-row.component';
+import { GamesRowComponent } from './components/games-row/games-row.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     HomeComponent,
     ContentComponent,
     NotFoundComponent,
+    ArticleRowComponent,
+    TechRowComponent,
+    GamesRowComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
