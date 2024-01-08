@@ -4,14 +4,15 @@
       <h1>{{ Title }}</h1>
       <img class="icon_article" src="../../../assets/Line.svg" />
     </div>
-    <div class="title">
+
+    <a class="title" [routerLink]="['notFound']">
       <h1>{{ More }}</h1>
       <img class="icon_article" src="../../../assets/Frame 286.svg" />
-    </div>
+    </a>
   </div>
   <div class="container_content_category-card">
     <div class="content_category-card">
-      <a href="">
+      <a [routerLink]="['content']">
         <img class="article_img" src="{{ PhotoCover1 }}" />
         <h5>{{ CardTitle1 }}</h5>
       </a>
@@ -28,7 +29,7 @@
       </div>
     </div>
     <div class="content_category-card">
-      <a href="">
+      <a [routerLink]="['content']">
         <img class="article_img" src="{{ PhotoCover2 }}" />
         <h5>{{ CardTitle2 }}</h5>
       </a>
@@ -45,7 +46,7 @@
       </div>
     </div>
     <div class="content_category-card">
-      <a href="">
+      <a [routerLink]="['content']">
         <img class="article_img" src="{{ PhotoCover3 }}" />
         <h5>{{ CardTitle3 }}</h5>
       </a>
@@ -62,7 +63,7 @@
       </div>
     </div>
     <div class="content_category-card">
-      <a href="">
+      <a [routerLink]="['content']">
         <img class="article_img" src="{{ PhotoCover4 }}" />
         <h5>{{ CardTitle4 }}</h5>
       </a>

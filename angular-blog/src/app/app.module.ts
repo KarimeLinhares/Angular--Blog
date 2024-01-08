@@ -11,6 +11,8 @@ import { SubscribeCardComponent } from './components/subscribe-card/subscribe-ca
 import { FooterCardComponent } from './components/footer-card/footer-card.component';
 import { SubscribeComponentsComponent } from './components/subscribe-components/subscribe-components.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { HomeComponent } from './pages/home/home.component';
     FooterCardComponent,
     SubscribeComponentsComponent,
     HomeComponent,
+    ContentComponent,
+    NotFoundComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

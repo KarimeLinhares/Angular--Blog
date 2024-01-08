@@ -1,0 +1,57 @@
+.container_notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 50px 100px 50px;
+  padding: 50px;
+  background-color: #ffffff;
+  box-shadow: 4px 6px 13px rgba(214.62, 214.62, 214.62, 0.25);
+  border-radius: 12.6px;
+}
+
+.notfound_pic {
+  width: 500px;
+}
+
+.pic_title {
+  position: absolute;
+  margin: 180px 0 0 400px;
+}
+
+.title_notfound {
+  margin: 50px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.return {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.return > a:hover {
+  text-decoration: underline;
+}
+
+.return_pic {
+  width: 20px;
+}
+
+h1 {
+  color: #0062d1;
+  font-size: 60px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+p,
+a {
+  color: #1b2e35;
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
