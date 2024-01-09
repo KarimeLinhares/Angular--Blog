@@ -46,3 +46,7 @@
   font-family: Plus Jakarta Sans;
   font-weight: 700;
 }
+
+.menu-links:hover {
+  text-decoration: underline;
+}

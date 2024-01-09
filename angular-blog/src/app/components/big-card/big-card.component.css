@@ -26,3 +26,9 @@ p {
 img {
   width: 350px;
 }
+
+@media screen and (max-width: 1030px) {
+  p {
+    font-size: 18px;
+  }
+}
